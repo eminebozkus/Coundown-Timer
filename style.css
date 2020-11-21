@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./newYear.jpg);
+  font-family: "Caveat", cursive;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+h1 {
+  font-size: 100px;
+  font-weight: normal;
+  color: #d97941;
+  margin-top: 40px;
+}
+.big-text {
+  font-size: 80px;
+  font-weight: bold;
+
+  line-height: 1;
+  margin: 0 50px;
+  color: #d97941;
+}
+.countdown-el {
+  text-align: center;
+}
+.countdown-el span {
+  font-size: 50px;
+  color: #d97941;
+}
